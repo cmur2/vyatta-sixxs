@@ -1,0 +1,9 @@
+tag:
+priority: 500
+type: txt
+help: SixXS interface name
+val_help: sixxs; SixXS interface name, must be sixxs
+syntax:expression: $VAR(@) == "sixxs"
+	; "SixXS interface must be named sixxs"
+
+end: exit 0
