@@ -1,6 +1,6 @@
 # vyatta-sixxs
 
-This is another approach then e.g. [vyatta-aiccu](https://github.com/fgp/vyatta-aiccu) to support AICCU and especially SixXS support for Vyatta/EdgeOS. Maybe a more fragile one.
+This is another approach then e.g. [vyatta-aiccu](https://github.com/fgp/vyatta-aiccu) to support AICCU and especially SixXS for Vyatta/EdgeOS mainly for firewalling. Maybe a more fragile one.
 
 It requires that the AICCU interface is setup outside of and before Vyatta (e.g. using Debian */etc/network/interfaces*) since this module relies on it's presence and that AICCU is started and controlled outside of Vyatta (e.g. simply using sysvinit). There are some special options needed for AICCU to function with a precreated tun interface.
 
