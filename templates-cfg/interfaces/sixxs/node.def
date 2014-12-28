@@ -2,8 +2,8 @@ tag:
 priority: 500
 type: txt
 help: SixXS interface name
-val_help: sixxs; SixXS interface name, must be sixxs
-syntax:expression: $VAR(@) == "sixxs"
-	; "SixXS interface must be named sixxs"
+val_help: sixxs0; SixXS interface name, must be sixxs0
+syntax:expression: $VAR(@) == "sixxs0"
+	; "SixXS interface must be named sixxs0"
 
 end: exit 0
